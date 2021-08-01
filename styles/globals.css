@@ -43,3 +43,8 @@ footer {
   color: #4979ff;
   text-decoration: underline;
 }
+
+img{
+  height: 100;
+  width: 100;
+}

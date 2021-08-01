@@ -7,6 +7,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
+    <>
     <div>
       <h1 className={styles.title}>Home Page</h1>
       <p className={styles.text}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos reprehenderit cumque dolorum esse praesentium accusamus mollitia quasi tempora ducimus? Molestiae iure quia cupiditate laboriosam quos! Labore quibusdam facilis quam ducimus.</p>
@@ -15,5 +16,6 @@ export default function Home() {
       <a  className={styles.btn}>See Travel Listing</a>
       </Link>
     </div>
+    </>
   )
 }
